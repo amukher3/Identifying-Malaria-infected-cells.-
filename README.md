@@ -22,7 +22,7 @@ The model is a simple 2-layered 2D ConvNet(convolution,pooling) followed by a fe
 There was some drop-out and regularization used in the conv. layers.
 Careful selection of the regularization parameters and the drop-out rate is needed to balance the
 Bias-Variance trade-off. 
-If trained on a smaller chunk of training data,regularization,drop-out might not be needed. 
+If trained on a relatively smaller chunk of training data,regularization,drop-out might not be needed. 
 
 ***Results***
 The best model weight seemed to have good accuracy of around `0.95` on the test and the prediction-set. 
