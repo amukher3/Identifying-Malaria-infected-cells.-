@@ -35,7 +35,8 @@ Although, the model didn't generalize to the images that were used, it might sti
 of infected cells from various diseases and note down the accuracy.
 
 Although, due to scarcity of openly available data-sets this might turn out to be a bit of a daunting task. 
-The model is _`NOT`_ meant to generalize to images of Plasma cells. 
+NOTE:The model is _`NOT`_ meant to generalize to images of Plasma cells and should be just tested on RBC images 
+of different kinds. 
 
 
 
