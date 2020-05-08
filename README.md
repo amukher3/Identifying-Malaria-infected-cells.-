@@ -25,7 +25,17 @@ Bias-Variance trade-off.
 If trained on a relatively smaller chunk of training data,regularization,drop-out might not be needed. 
 
 ***Results***
-The best model weight seemed to have good accuracy of around `0.95` on the test and the prediction-set. 
+The best model did have a good accuracy of around `0.95` on the test and the prediction-set. 
 
 _`Queries/questions/bugs can be reported to abhi0787@gmail.com amukher3@rockets.utoledo.edu`_
+
+***P.S***: The trained model(weights) didn't generalize satisfactorily to some of the infected cell images of different diseaseses 
+that I could gather from the internet. The images looked very different from the ones that were used in training. 
+Although, the model didn't generalize to the images that were used, it might still be worthwhile to test it on images 
+of infected cells from various diseases and note down the accuracy.
+
+Although, due to scarcity of openly available data-sets this might turn out to be a bit of a daunting task. 
+The model is _`NOT`_ meant to generalize to images of Plasma cells. 
+
+
 
